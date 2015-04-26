@@ -10,7 +10,7 @@ The LocalGsmNlpBackend backend performs no network data. All data acquired by th
 Therefor a database must be generated and placed in the .nogapps folder of your internal phone storage.
 
 ### About this script
-This script is a modified version of https://github.com/n76/lacells-creator. 
+This script is a modified version of https://github.com/n76/lacells-creator.  
 This mod creates the database for the LocalGsmNlpBackend, including woldwide tower information from OpenCellId and Mozilla Location Services.
 
 ### Folder for the generated database
