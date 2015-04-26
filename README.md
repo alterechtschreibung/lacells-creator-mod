@@ -3,20 +3,20 @@ lacells-creator-mod
 
 Script for generating a cell tower database for µg UnifiedNlp (UnifiedNlp)
 
-### About µg UnifiedNlp:
+### About µg UnifiedNlp
 µg UnifiedNlp is a FLOSS (Free/Libre Open Source Software) tool for geolocating android phones without Google's Geolocation service. It allows apps that use Android's coarse or network locating features to geolocate the phone which is usually faster and less battery consuming then GPS. 
 The real location work is done by backends (plug-ins) that can be configured through the UnifiedNlp UI. 
 The LocalGsmNlpBackend backend performs no network data. All data acquired by the phone stays on the phone and no queries are made to a centralized AP location provider.
 Therefor a database must be generated and placed in the .nogapps folder of your internal phone storage.
 
-### About this script:
-This script is a modified version of https://github.com/n76/lacells-creator
+### About this script
+This script is a modified version of https://github.com/n76/lacells-creator. 
 This mod creates the database for the LocalGsmNlpBackend, including woldwide tower information from OpenCellId and Mozilla Location Services.
 
-### Folder for the generated database: 
+### Folder for the generated database
 /storage/emulated/0/.nogapps/lacells.db
 
-### Required downloads besides this script:
+### Required downloads besides this script
 1. https://f-droid.org/repository/browse/?fdid=com.google.android.gms
 2. https://f-droid.org/repository/browse/?fdid=org.fitchfamily.android.gsmlocation
 
